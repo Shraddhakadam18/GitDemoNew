@@ -12,4 +12,9 @@ describe('My First Test Suite',function(){
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
         cy.log("second test case")
        })
+
+       it('My third TestCase from X person',function(){
+        cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
+        cy.log("My third TestCase from X person")
+       })
 })
